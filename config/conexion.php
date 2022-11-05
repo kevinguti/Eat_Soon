@@ -10,6 +10,7 @@
                 $db_config['db_pass']
             );
         }catch(PDOException $e){
+            echo $e;
             return $e->getMessage();
         }
     }
