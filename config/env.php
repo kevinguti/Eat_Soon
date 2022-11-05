@@ -9,7 +9,7 @@
         'db_user' => 'root',
         'db_pass' => 'kevinguti',
         'db_name' => 'ETS',
-        'db_host' => 'eatsoon',
-        'db_port' => '3306'
+        'db_host' => 'eatsoon', // nombre del contenedor 
+        'db_port' => '3306' // puerto de servidor php
     ];
 ?>
